@@ -5,7 +5,7 @@ export default function Home() {
   const activeChain = process.env.NEXT_PUBLIC_ACTIVE_CHAIN;
 
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
+    <main className="flex min-h-screen flex-col items-center justify-between p-24 bg-gradient-to-b from-slate-800 to-slate-600">
       <div className="flex flex-col gap-10 items-center">
         <div className="font-medium text-5xl">Welcome to Nomos!</div>
         <div className="font-medium text-xl">active chain : {activeChain}</div>
